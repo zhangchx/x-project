@@ -20,12 +20,6 @@
         <div></div>
       </div>
     </div>
-    <!--<x-button text="登录" style="margin: 10px 8%" :disabled="false" type="error" @click.native="ss"></x-button>-->
-    <!--<x-error-msg title="非常抱歉"-->
-                 <!--content="无法完成登录，建议重新点击登录"-->
-                 <!--@on-confirm="checkOut"-->
-                 <!--type="confirm-cancel"-->
-                 <!--v-model="showError"></x-error-msg>-->
   </div>
 </template>
 
