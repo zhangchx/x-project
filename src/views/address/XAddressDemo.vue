@@ -32,5 +32,6 @@ span {
   color: rgba(0,0,0,0.60);
   margin: 10px 10%;
   display: block;
+  user-select: none;
 }
 </style>

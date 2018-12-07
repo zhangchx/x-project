@@ -1,5 +1,6 @@
 <template>
-  <div class="x-btn" :class="[disabled? 'x-btn-disable': '', type]">
+  <div class="x-btn"
+       :class="[disabled? (type=='simple'? 'x-btn-simple-disable':'x-btn-disable '): '', type]">
     <div class="x-btn-active" :style="{color: disabled?'rgba(0,0,0,40%)': '' }">{{text}}</div>
   </div>
 </template>
@@ -50,6 +51,9 @@ export default {
   }
   .x-btn-disable {
     background-color: #ebedee;
+  }
+  .x-btn-simple-disable {
+    border: 1px solid rgba(0,0,0,.15);
   }
   .x-btn-active {
     font-size: 16px;
