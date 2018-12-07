@@ -20,8 +20,6 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-![](C:\Users\zhangchx\Documents\Tencent Files\405511073\FileRecv\MobileFile\Screenshot_2018-12-07-13-43-45-883_com.tencent.mm.png)
-
 ## XInput 输入框
 
 ### 使用：
