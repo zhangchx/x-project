@@ -1,0 +1,16 @@
+**/.svn
+**/.idea
+*.iml
+
+**/target
+
+**/dist
+**/node_modules
+**/npm-debug.log
+**/.gitkeep
+
+**/temp
+**/tmp
+**/zip_temp
+**/ui_dist/
+jars
