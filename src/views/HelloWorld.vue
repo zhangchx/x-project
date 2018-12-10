@@ -13,6 +13,7 @@
       <div @click="go('x-select')">x-select</div>
       <div @click="go('x-address')">x-address</div>
       <div @click="go('x-error-msg')">x-error-msg</div>
+      <div @click="go('x-list')">x-list</div>
     </div>
     <div class="bg">
       <div class="erth">
