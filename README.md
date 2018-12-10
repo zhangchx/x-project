@@ -179,3 +179,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 | ----------- | ---------------- |
 | @on-confirm | 点击确定触发事件 |
 | @on-cancel  | 点击取消触发事件 |
+
+## XList 滚动列表，表头动态变更
+
+#本demo目前只能参考使用，无法引用为组件。
+
+
+

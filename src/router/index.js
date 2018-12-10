@@ -6,6 +6,7 @@ import XButton from '@/views/button/XButtonDemo'
 import XSelect from '@/views/select/XSelectDemo'
 import XAddress from '@/views/address/XAddressDemo.vue'
 import XErrorMsg from '@/views/error-msg/XErrorMsgDemo.vue'
+import XList from '@/views/list/XIistDemo.vue'
 
 Vue.use(Router)
 
@@ -38,8 +39,13 @@ export default new Router({
     },
     {
       path: '/x-error-msg',
-      name: 'X-Error-msg',
+      name: 'X-Error-Msg',
       component: XErrorMsg
+    },
+    {
+      path: '/x-list',
+      name: 'X-List',
+      component: XList
     }
   ]
 })
